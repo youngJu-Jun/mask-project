@@ -1,0 +1,19 @@
+.main-board {
+  position: fixed;
+  top: 150px;
+  left: 33%;
+  width: 33%;
+  height: 500px;
+  background-color: #f3f3f3;
+}
+
+.main-board__item {
+  position: static;
+  padding: 25px;
+  text-align: center;
+}
+
+.main-board > .main-board__item + .main-board__item {
+  border-top: 1px solid #cacaca;
+}
+

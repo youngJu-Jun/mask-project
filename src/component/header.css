@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color:#8fbbff;
+}
+
+.header > span {
+  /* sub contents on header */
+  position: fixed;
+  top : 35px;
+  left: 70%;
+}
+
+.header__standard-bar {
+  /* categories bar */
+  width: 120px;
+  height: 23px;
+  position: fixed;
+  padding: 5px;
+  border-radius: 0.4rem;
+  top: 30px;
+  left: 25px;
+  background-color: white;
+}
+
+.header__standard-bar__next-button {
+  position: fixed;
+  width: 0; 
+  height: 0; 
+  /* make triangle */
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #8fbbff;
+  background-color: white;
+  top: 42px;
+  left: 130px;
+}
+
+.header__standard-bar__next-button:active {
+  top: 44px;
+}
