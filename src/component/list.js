@@ -29,9 +29,9 @@ class List extends Component {
     temp = this.state.itemList.copyWithin(); 
     // ==== add item in this.state.itemList ===== 
     temp.push(                               //==
-    <div class = 'main-board__item'>        {/*==                            */}
-      <Item maskInfo = {maskInfo}/>         {/*==           내 주석 잔기술이야*/}          
-    </div>                                   //==
+                                             //==                            */}
+      (<div><Item maskInfo = {maskInfo}/><div className = 'separate'></div></div>)        //==           내 주석 잔기술이야*/}          
+                                             //==
     );                                       //==
     this.setState({                          //==
       itemList: temp                         //==

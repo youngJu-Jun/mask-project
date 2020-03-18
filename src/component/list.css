@@ -3,20 +3,25 @@
   top: 150px;
   left: 33%;
   width: 33%;
+  padding: 15px;
   height: 500px;
   border-radius: 1.5rem;
   background-color: #f3f3f3;
-  box-shadow: -10px 10px 15px 2px  #ededed;
+  box-shadow: -10px 10px 15px 2px #ededed;
 }
 
 .main-board__item {
   width: 90%;
-  height: 13%;
+  height: 70px;
   margin: 0 auto;
   background-color: white;
 }
 
-
+.separate {
+  width: 10px;
+  height: 15px;
+  background-color: #f3f3f3;
+}
 
 .main-board__item > span {
   padding: 25px;
@@ -26,4 +31,3 @@
 /* .main-board > .main-board__item + .main-board__item {
   border-top: 1px solid #cacaca;
 } */
-
