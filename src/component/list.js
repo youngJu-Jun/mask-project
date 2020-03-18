@@ -6,7 +6,7 @@ class List extends Component {
 
   constructor(props) {
     super(props);
-    // lists
+    // listsnp
     this.state = {
       itemList: []
     }
@@ -45,12 +45,6 @@ class List extends Component {
       <div className = 'main-board'>
         {this.state.itemList}
         {this.state.itemList}
-        {this.state.itemList}
-        {this.state.itemList}
-        {this.state.itemList}
-        {this.state.itemList}
-        {this.state.itemList}
-
       </div>
     );
   }
