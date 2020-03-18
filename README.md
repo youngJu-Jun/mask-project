@@ -28,6 +28,11 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+### Django Server Run
+To run django server to save parsed data:
+### `python manage.py runserver`
+- Mac terminal
+### `python3 manage.py runserver`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
