@@ -16,10 +16,7 @@
   background-color: white;
 }
 
-.main-board__item + .main-board__item {
-  height: 10px;
-  width: 100%;
-}
+
 
 .main-board__item > span {
   padding: 25px;
